@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABY</title>
+
+    <!-- External CSS stylesheets -->
+    <link rel="stylesheet" href="baby.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#our-team" class="dropbtn">Our Team</a>
+                    <!-- Dropdown menu for Our Team -->
+                    <ul class="dropdown-content">
+                        <li><a href="#Hadeel">Hadeel</a></li>
+                        <li><a href="#Clever Mind"> Clever Mind </a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home">
+        <h1>Image Grid View</h1>
+        <!-- Controls for image grid layout -->
+        <div class="icons">
+            <i class="fa-solid fa-square fa" onclick="full()"></i>
+            <i class="fa fa-th-large fa" onclick="twocolumn()"></i>
+            <i class="fa fa-th fa" onclick="fourcolumn()"></i>
+        </div>
+        <!-- Image grid -->
+        <div class="rowimage">
+            <div id="columnimage1">
+                <!-- Images -->
+                <img src="image1.jpg" alt="Image1">
+                <img src="image2.jpg" alt="Image2">
+                <img src="image3.jpg" alt="Image3">
+                <img src="image4.jpg" alt="Image4">
+                <img src="image5.jpg" alt="Image5">
+                <img src="image6.jpg" alt="Image6">
+                <img src="image7.jpg" alt="Image7">
+                <img src="image8.jpg" alt="Image8">
+                <img src="image9.jpg" alt="Image9">
+                <img src="image10.jpg" alt="Image10">
+            </div>
+            <div id="columnimage2">
+                <!-- Additional images -->
+                <img src="image11.jpg" alt="Image11">
+                <img src="image12.jpg" alt="Image12">
+                <img src="image13.jpg" alt="Image13">
+                <img src="image14.jpg" alt="Image14">
+                <img src="image15.jpg" alt="Image15">
+                <img src="image16.jpg" alt="Image16">
+                <img src="image17.jpg" alt="Image17">
+                <img src="image18.jpg" alt="Image18">
+                <img src="image19.jpg" alt="Image19">
+                <img src="image20.jpg" alt="Image20">
+            </div>
+            <div id="columnimage3">
+                <!-- Additional images -->
+                <img src="image21.jpg" alt="Image21">
+                <img src="image22.jpg" alt="Image22">
+                <img src="image23.jpg" alt="Image23">
+                <img src="image24.jpg" alt="Image24">
+                <img src="image25.jpg" alt="Image25">
+                <img src="image26.jpg" alt="Image26">
+                <img src="image27.jpg" alt="Image27">
+                <img src="image28.jpg" alt="Image28">
+                <img src="image29.jpg" alt="Image29">
+            </div>
+            <div id="columnimage4">
+                <!-- Additional images -->
+                <img src="image31.jpg" alt="Image31">
+                <img src="image32.jpg" alt="Image32">
+                <img src="image33.jpg" alt="Image33">
+                <img src="image34.jpg" alt="Image34">
+                <img src="image35.jpg" alt="Image35">
+                <img src="image36.jpg" alt="Image36">
+                <img src="image37.jpg" alt="Image37">
+                <img src="image38.jpg" alt="Image38">
+                <img src="image39.jpg" alt="Image39">
+                <img src="image40.jpg" alt="Image40">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section id="about-us">
+        <h1>About Us</h1>
+        <div class="About">
+            <!-- Description about children and development -->
+            <p>Children are the greatest blessing from God,
+                bringing joy and happiness into family life.
+                Through their stages of growth, we witness
+                significant changes in their daily lives,
+                from their first smiles to their first steps.
+                Children represent innocence and purity,
+                their eyes reflecting a profound curiosity
+                about the world around them.
+                Parents strive diligently to provide them
+                with an optimal environment filled with love,
+                care, and nurturing. The early years of a child's
+                life are critically important for the development
+                of their mental, physical, and social skills.
+                During infancy and early childhood, they learn to
+                interact with the world, acquiring precise motor skills
+                like crawling and walking, and beginning to explore their
+                surroundings with great curiosity. Additionally, they start
+                to learn language and communication, displaying emotional and
+                social responses that mature over time. Good care and intimate
+                interaction with family members play a crucial role in their
+                development, encouraging them to explore the world safely
+                and build confidence in themselves. A child at this stage
+                reflects their innocence and curiosity through their innocent
+                eyes, gaining fundamental abilities that will support them
+                throughout their lives. Thus, the early years are pivotal
+                for nurturing their cognitive, physical, and social skills.</p>
+        </div>
+    </section>
+
+    <!-- Our Team section -->
+    <section id="our-team">
+        <h1>Our Team</h1>
+        <div class="Team">
+            <p style="text-align: center;">Welcome to our team! We are dedicated to providing innovative solutions and
+                excellent service.
+            </p>
+            <br>
+            <hr>
+            <!-- Team member details -->
+            <img src="https://st2.depositphotos.com/14903220/46378/v/450/depositphotos_463781334-stock-illustration-women-avatar-graphic-sign-girl.jpg"
+                alt="">
+            <div class="span">
+                <h4 style=" font-size:larger; color: #89cff0;" id="Hadeel">Hadeel Al-Abadi</h4>
+                <span>Frontend Developer</span>
+                <span>1 year of experience</span>
+                <span>Age: 21</span>
+            </div>
+            <hr>
+            <img src="https://st2.depositphotos.com/14903220/46378/v/450/depositphotos_463781334-stock-illustration-women-avatar-graphic-sign-girl.jpg"
+                alt="">
+            <div class="span">
+                <h4 style=" font-size:larger; color: #89cff0;" id="Clever Mind"> Clever Mind </h4>
+                <span>Full Stack Developer</span>
+                <span>Location: Amman-Jordan KHBP Grow Building 23</span>
+                <span>E-mail: info@clevermindpob.org</span>
+                <span>Mobile: +962795347341</span>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us section -->
+    <section id="contact-us">
+        <h1>Contact Us</h1>
+        <p class="Contact">
+            Contacting us is an essential part of your customer
+            experience with us. We're here to answer your inquiries
+            and assist you in meeting your needs in the best possible way.
+            You can reach out to us via email, phone, or by visiting our main website
+            for more information or to leave a message. We look forward to hearing your
+            thoughts and suggestions, ensuring a prompt and efficient response.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <img src="baby-logo.png" alt="baby logo">
+        &copy; 2024 Hadeel AL-Mahameed.
+    </footer>
+
+    <!-- JavaScript for image grid layout -->
+    <script>
+        function full() {
+            // Function to expand images to full width
+            document.getElementById('columnimage1').style.width = '100%';
+            document.getElementById('columnimage2').style.width = '100%';
+            document.getElementById('columnimage3').style.width = '100%';
+            document.getElementById('columnimage4').style.width = '100%';
+        }
+
+        function twocolumn() {
+            // Function to set images to two columns
+            document.getElementById('columnimage1').style.width = '50%';
+            document.getElementById('columnimage2').style.width = '50%';
+            document.getElementById('columnimage3').style.width = '50%';
+            document.getElementById('columnimage4').style.width = '50%';
+        }
+
+        function fourcolumn() {
+            // Function to set images to four columns
+            document.getElementById('columnimage1').style.width = '25%';
+            document.getElementById('columnimage2').style.width = '25%';
+            document.getElementById('columnimage3').style.width = '25%';
+            document.getElementById('columnimage4').style.width = '25%';
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+/* General page settings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header design */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    height: 40px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer design */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+footer img {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+/* Home page design */
+#home {
+    text-align: center;
+}
+
+#home h1 {
+    padding: 8px 0;
+}
+
+#home .icons {
+    background: #89cff0;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.fa {
+    margin: 5px 10px;
+    font-size: 20px !important;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.fa:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+/* Image layout */
+.rowimage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#columnimage1,
+#columnimage2,
+#columnimage3,
+#columnimage4 {
+    width: 25%;
+}
+
+img {
+    width: 98%;
+}
+
+/* Dropdown button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    padding: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+/* About section */
+.About {
+    background-color: #89cff0;
+    padding: 20px 20px 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+/* Centered heading */
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+span{
+    display: block;
+}
+.span{
+    position: relative;
+    top: -110px;
+    left: 180px;
+}
+/* Team section */
+.Team {
+    background-color: #555;
+    color: #fff;
+    padding: 20px 20px 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.Team img {
+    max-width: 40%;
+    height: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* Contact section */
+.Contact {
+    background-color: #89cff0;
+    padding: 20px 20px 20px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
